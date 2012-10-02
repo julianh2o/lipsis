@@ -8,7 +8,7 @@
 
     $.fn.lipsis.options = {
         rows: 1,
-        location: "middle"
+        location: "right"
     };
     
     
