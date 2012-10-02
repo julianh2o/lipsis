@@ -7,19 +7,23 @@ This plugin should work on just about any block level container.
 
 Usage:
 
+```javascript
 $(".selector").lipsis(); //Use default options
+```
 
 Equivalent to.. 
 
+```javascript
 $(".selector").lipsis({
 	rows: 1,
 	location: right
 });
+```
 
 
 Designed to handle nested elements gracefully.. for example.. 
 
-```javascript
+```html
 <div class="lipsis">
 	<span>some text</span> some more text <a href="#">some link text</a>
 </div>
